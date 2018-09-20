@@ -7,6 +7,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 
 		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
 		<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
 
 		<!-- Personalized css -->
@@ -32,145 +33,199 @@
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Permanent+Marker" rel="stylesheet">
 	</head>
 	<body>
-		<!-- <img src="./assets/img/pantone.jpg" width="300"> -->
+		<!-- Navigation -->
+		<nav class="container-fluid navbar fixed-top navbar-expand-sm navbar-dark">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					Logo
+				</a>
 
-			<!-- Navigation -->
-			<!-- <nav class="container navbar fixed-top navbar-expand-lg navbar-light"> -->
-				<!-- Introduction -->
-				<!-- <a class="navbar-brand" href="index.html">
-					<img src="./assets/img/logo.png" style="filter: invert(100%);">
-				</a> -->
-
-				<!-- Buger Menu -->
-				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
-				</button> -->
+				</button>
 
-				<!-- Navigation Link -->
-				<!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#about"><h4>About</h4></a>
+						<li class="nav-item">
+							<a class="nav-link active" href="./home.html">Explore</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#contact"><h4>Contact</h4></a>
+							<a class="nav-link" href="./about.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./contact.html">Contact</a>
 						</li>
 					</ul>
 				</div>
-			</nav> -->
+			</div>
+		</nav>
 
+		<main id="home">
+
+			<!--Hero Section-->
 			<div class="banner">
-				<!-- Background Video -->
 				<div class="welcome">
 				    <video loop muted autoplay poster="./assets/img/luzon.jpg">
 				        <source src="./assets/video/luzon.webm" type="video/webm">
 				        <source src="./assets/video/luzon.mp4" type="video/mp4">
 				    </video>
 				</div>
-
-				<!-- Jumbotron -->
 				<div class="jumbotron ">
-					<div class="container">
-						<h1 class="display-3">Welcome to Luzon</h1>
-						<p class="lead">Explore the cool and relaxing beaches around the Luson Island.</p>
+					<div class="container animated fadeInUp">
+						<h1 class="display-3 ">Welcome to Luzon</h1>
+						<p class="lead">Explore the cool and relaxing beaches around the Luzon Island.</p>
 					</div>
 				</div>	
 			</div>
 			
 
-
-
-			<section class="container" id="headline">
-				<h2>Luzon Essentials</h2>
+			<!--Featured Section-->
+			<section class="container" id="featured">
+				<h2>Featured</h2>
 				<div class="row">
-					<div class="col-sm-12 col-lg-3">
-						<h5>Handpicked places you should visit this coming summer. Experience crystal clear water with white fine sands. Enjoy Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident.</h5>
+					<div class="col-6 col-lg-4">
+						<div class="card card-featured"></div>
 					</div>
-					<div class="col-sm-4 col-lg-3">
-						<div class="card card-essentials"></div>
+					<div class="col-6 col-lg-4">
+						<div class="card card-featured"></div>
 					</div>
-					<div class="col-sm-4 col-lg-3">
-						<div class="card card-essentials"></div>
+					<div class="col-6 col-lg-4">
+						<div class="card card-featured"></div>
 					</div>
-					<div class="col-sm-4 col-lg-3">
-						<div class="card card-essentials"></div>
+					<div class="col-6 col-lg-4">
+						<div class="card card-featured"></div>
+					</div>
+					<div class="col-6 col-lg-4">
+						<div class="card card-featured"></div>
+					</div>
+					<div class="col-6 col-lg-4">
+						<div class="card card-featured"></div>
 					</div>
 				</div>
 			</section>
 
+			<!--Editors Section-->
 			<div class="alt-container">
-				<section class="container" id="featured">
-					<h2>Featured</h2>
-					<div class="row">
-						<div class="col-6 col-lg-4">
-							<div class="card card-featured"></div>
-						</div>
-						<div class="col-6 col-lg-4">
-							<div class="card card-featured"></div>
-						</div>
-						<div class="col-6 col-lg-4">
-							<div class="card card-featured"></div>
-						</div>
-						<div class="col-6 col-lg-4">
-							<div class="card card-featured"></div>
-						</div>
-						<div class="col-6 col-lg-4">
-							<div class="card card-featured"></div>
-						</div>
-						<div class="col-6 col-lg-4">
-							<div class="card card-featured"></div>
+				<section id="editors">
+					<h2 class="container">Editor's Choice</h2>
+					<div class="card-editors"></div>
+					<div class="container">
+						<div class="row">
+							<div class="col-12 col-sm-4">
+								<div class="card card-featured"></div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="col-12 col-sm-4">
+								<div class="card card-featured"></div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div class="col-12 col-sm-4">
+								<div class="card card-featured"></div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
 						</div>
 					</div>
 				</section>
 			</div>
 
-			<section id="editors">
-				<h2 class="container">Editor's Choice</h2>
-				<div class="card-editors"></div>
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-lg-4">
-							<div class="card card-featured"></div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-						<div class="col-4 col-lg-4">
-							<div class="card card-featured"></div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-						<div class="col-4 col-lg-4">
-							<div class="card card-featured"></div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
+			<!--Essentials Section-->
+			<section class="container">
+				<h2>Luzon Essentials</h2>
+				<div class="row">
+					<div class="col-sm-12 col-lg-3 justify-content-center align-self-center">
+						<h5>Handpicked places you should visit this coming summer. Experience crystal clear water with white fine sands.</h5>
+					</div>
+					<div class="col-sm-4 col-lg-3">
+						<div class="card card-essentials"></div>
+					</div>
+					<div class="col-sm-4 col-lg-3">
+						<div class="card card-essentials"></div>
+					</div>
+					<div class="col-sm-4 col-lg-3">
+						<div class="card card-essentials"></div>
 					</div>
 				</div>
 			</section>
 
 
-			<footer class="main-footer">
+			<!--Suggested Section-->
+			<div class="alt-container">
+				<section class="container">
+					<h2>More to Explore</h2>
+					<div class="row">
+						<div class="col-sm-6">
+							<h3>Visayas</h3>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="card card-essentials"></div>
+								</div>
+								<div class="col-md-6">
+									<div class="card card-essentials"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<h3>Mindanao</h3>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="card card-essentials"></div>
+								</div>
+								<div class="col-md-6">
+									<div class="card card-essentials"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<!--Call to Action Section-->
+			<section class="container-fluid cta">
 				<div class="row">
-					<div class="col-lg-2 offset-lg-3">
-						<h4>Contact</h4>
-						<p>Address</p>
-						<p>Phone Number</p>
-						<p>Email</p>
-					</div>
-					<div class="col-lg-3">
-						<h4>About</h4>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est labore deleniti, 
-							at fugiat recusandae nihil ipsum sunt autem.</p>
-					</div>
-					<div class="col-lg-3">
-						<h4>Social</h4>
-						<p>Facebook</p>
-						<p>Twitter</p>
-						<p>Instagram</p>
+					<div class="col-12 justify-content-center align-self-center text-center">
+						<h2>Be part of the community of travelers</h2>
+						<p>Sign up and message us to be part our growing community.</p>
+						<a href="./contact.html"><button type="button" class="btn btn-outline-light">Message now</button></a>
 					</div>
 				</div>
+			</section>
 
-				<p>Isla Pilipinas &copy; 2018</p>
+
+			<!--Footer Section-->
+			<footer class="main-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-6 col-md-4">
+								<h4>Contact</h4>
+								<p><i class="fas fa-building"></i> Address</p>
+								<p><i class="fas fa-mobile"></i> Mobile</p>
+								<p><i class="fas fa-envelope"></i> Email</p>
+						</div>
+						<div class="col-6 col-md-4">
+								<h4>Social</h4>
+								<p><i class="fab fa-facebook-square"></i> Facebook</p>
+								<p><i class="fab fa-twitter-square"></i> Twitter</p>
+								<p><i class="fab fa-instagram"></i> Instagram</p>
+						</div>
+						<div class="col-12 col-md-4">
+								<h4>About</h4>
+								<p>Isla Pilipinas is a web-based directory for all the best beaches across the Philippine archipelago. Explore hundreds of islands to  discover.</p>
+						</div>
+						<div class="col-12">
+							<p>Isla Pilipinas &copy; 2018</p>
+						</div>
+					</div>
+				</div>
 			</footer>
+
+		</main>
 	</body>
+	<script type="text/javascript">
+		$(window).scroll(function(){
+			$('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
+		});
+	</script>
 </html>

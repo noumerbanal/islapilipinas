@@ -6,8 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 
-		<!-- Bootstrap CSS -->
+		<!-- Animate CSS -->
 		<link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
+
+		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
 
 		<!-- Personalized css -->
@@ -34,10 +36,10 @@
 	</head>
 	<body>
 		<!-- Navigation -->
-		<nav class="container-fluid navbar fixed-top navbar-expand-sm navbar-dark">
+		<nav class="container-fluid navbar fixed-top navbar-expand-sm navbar-light">
 			<div class="container">
 				<a class="navbar-brand" href="index.html">
-					Logo
+					<i class="fas fa-map-marked-alt"></i>
 				</a>
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,7 +73,7 @@
 				    </video>
 				</div>
 				<div class="jumbotron ">
-					<div class="container animated fadeInUp">
+					<div class="container animated fadeIn">
 						<h1 class="display-3 ">Welcome to Luzon</h1>
 						<p class="lead">Explore the cool and relaxing beaches around the Luzon Island.</p>
 					</div>
@@ -80,52 +82,52 @@
 			
 
 			<!--Featured Section-->
-			<section class="container" id="featured">
+			<section class="container animated fadeInUp" id="featured">
 				<h2>Featured</h2>
 				<div class="row">
 					<div class="col-6 col-lg-4">
-						<div class="card card-featured featured-1">
-							<div class="card-gradient">
+						<div class="card card-container featured-1">
+							<div class="card-gradient card-heading card-subheading">
 								<h4>Dipaculao Beach</h4>
 								<h5>Aurora</h5>
 							</div>
 						</div>
 					</div>
 					<div class="col-6 col-lg-4">
-						<div class="card card-featured featured-2">
-							<div class="card-gradient">
+						<div class="card card-container featured-2">
+							<div class="card-gradient card-heading card-subheading">
 								<h4>Talisayin Cove</h4>
 								<h5>Zambales</h5>
 							</div>
 						</div>
 					</div>
 					<div class="col-6 col-lg-4">
-						<div class="card card-featured featured-3">
-							<div class="card-gradient">
+						<div class="card card-container featured-3">
+							<div class="card-gradient card-heading card-subheading">
 								<h4>Potipot Island</h4>
 								<h5>Zambales</h5>
 							</div>
 						</div>
 					</div>
 					<div class="col-6 col-lg-4">
-						<div class="card card-featured featured-4">
-							<div class="card-gradient">
+						<div class="card card-container featured-4">
+							<div class="card-gradient card-heading card-subheading">
 								<h4>Cagbalete Island</h4>
 								<h5>Quezon Province</h5>
 							</div>
 						</div>
 					</div>
 					<div class="col-6 col-lg-4">
-						<div class="card card-featured featured-5">
-							<div class="card-gradient">
+						<div class="card card-container featured-5">
+							<div class="card-gradient card-heading card-subheading">
 								<h4>Burot Beach</h4>
 								<h5>Batangas</h5>
 							</div>
 						</div>
 					</div>
 					<div class="col-6 col-lg-4">
-						<div class="card card-featured featured-6">
-							<div class="card-gradient">
+						<div class="card card-container featured-6">
+							<div class="card-gradient card-heading card-subheading">
 								<h4>Magalawa</h4>
 								<h5>Zambales</h5>
 							</div>
@@ -138,21 +140,26 @@
 			<div class="alt-container">
 				<section id="editors">
 					<h2 class="container">Editor's Choice</h2>
-					<div class="card-editors card-featured featured-2"></div>
+					<div class="banner-editor card-container featured-2 text-center">
+						<div class="vh-center">
+							<h2>Talisayin Cove</h2>
+							<h3>Witness the majestic mountains and scenic coves. </h3>
+						</div>
+					</div>
 					<div class="container">
 						<div class="row">
 							<div class="col-12 col-sm-4">
-								<div class="card card-featured card-featured featured-3"></div>
+								<div class="card card-container editors-1"></div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 							<div class="col-12 col-sm-4">
-								<div class="card card-featured card-featured featured-2"></div>
+								<div class="card card-container editors-2"></div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
 							<div class="col-12 col-sm-4">
-								<div class="card card-featured card-featured featured-1"></div>
+								<div class="card card-container editors-3"></div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 								tempor incididunt ut labore et dolore magna aliqua.</p>
 							</div>
@@ -166,16 +173,31 @@
 				<h2>Luzon Essentials</h2>
 				<div class="row">
 					<div class="col-sm-12 col-lg-3 justify-content-center align-self-center">
-						<h5>Handpicked places you should visit this coming summer. Experience crystal clear water with white fine sands.</h5>
+						<h5>Handpicked places you should visit this next summer. Experience crystal clear water with white fine sands.</h5>
 					</div>
 					<div class="col-sm-4 col-lg-3">
-						<div class="card card-essentials card-featured featured-6"></div>
+						<div class="card card-container featured-6">
+							<div class="card-gradient card-heading card-subheading">
+								<h4>Magalawa</h4>
+								<h5>Zambales</h5>
+							</div>
+						</div>
 					</div>
 					<div class="col-sm-4 col-lg-3">
-						<div class="card card-essentials card-featured featured-5"></div>
+						<div class="card card-container featured-5">
+							<div class="card-gradient card-heading card-subheading">
+								<h4>Burot Beach</h4>
+								<h5>Batangas</h5>
+							</div>
+						</div>
 					</div>
 					<div class="col-sm-4 col-lg-3">
-						<div class="card card-essentials card-featured featured-4"></div>
+						<div class="card card-container featured-1">
+							<div class="card-gradient card-heading card-subheading">
+								<h4>Dipaculao Beach</h4>
+								<h5>Aurora</h5>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -184,16 +206,30 @@
 			<!--Suggested Section-->
 			<div class="alt-container">
 				<section class="container">
-					<h2>More to Explore</h2>
+					<h2>Explore More</h2>
 					<div class="row">
 						<div class="col-sm-6">
 							<h3>Visayas</h3>
 							<div class="row">
 								<div class="col-md-6">
-									<div class="card card-essentials card-featured featured-1"></div>
+									<a href="#soonModal" data-toggle="modal">
+										<div class="card card-container suggest-1">
+											<div class="card-gradient card-heading card-subheading">
+												<h4>Kalanggaman Island</h4>
+												<h5>Leyte</h5>
+											</div>
+										</div>
+									</a>
 								</div>
 								<div class="col-md-6">
-									<div class="card card-essentials card-featured featured-2"></div>
+									<a href="#soonModal" data-toggle="modal">
+										<div class="card card-container suggest-2">
+											<div class="card-gradient card-heading card-subheading">
+												<h4>Salagdoong Beach</h4>
+												<h5>Siquijor</h5>
+											</div>
+										</div>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -201,10 +237,24 @@
 							<h3>Mindanao</h3>
 							<div class="row">
 								<div class="col-md-6">
-									<div class="card card-essentials card-featured featured-3"></div>
+									<a href="#soonModal" data-toggle="modal">
+										<div class="card card-container suggest-3">
+											<div class="card-gradient card-heading card-subheading">
+												<h4>Daku Island</h4>
+												<h5>Siargao</h5>
+											</div>
+										</div>
+									</a>	
 								</div>
 								<div class="col-md-6">
-									<div class="card card-essentials card-featured featured-4"></div>
+									<a href="#soonModal" data-toggle="modal">
+										<div class="card card-container suggest-4">
+											<div class="card-gradient card-heading card-subheading">
+												<h4>Santa Cruz Island</h4>
+												<h5>Zamboanga</h5>
+											</div>
+										</div>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -252,12 +302,29 @@
 			</footer>
 
 		</main>
+
+		<!-- Modal -->
+		<div class="modal fade" id="soonModal" tabindex="-1" role="dialog" aria-labelledby="comingSoonModal" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content text-center">
+		      <div class="modal-header">
+		      	<h1 class="display-2"><i class="far fa-sad-cry animated swing infinite"></i></h1>
+		        <h4 class="modal-title">Coming Soon!</h4>
+		        <a class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </a>
+		      </div>
+		      <div class="modal-body">
+		        Don't worry, we're building more content in the future. For now you can go and explore the vast island of Luzon. 
+		      </div>
+		      <div class="modal-footer justify-content-start">
+		        <a data-dismiss="modal" aria-label="Close"><button type="button" class="btn btn btn-outline-primary">Explore Luzon</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
 	</body>
-	<script type="text/javascript">
-		$(window).scroll(function(){
-			$('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
-		});
-	</script>
 </html>
 
 
@@ -269,3 +336,11 @@
 <!-- featured-4 - https://i0.wp.com/www.travelphotolab.com/wp-content/uploads/2015/04/cagbalete_dsc_0296.jpg?resize=1200%2C800 -->
 <!-- featured-5 - http://3.bp.blogspot.com/-4qKcIuv7lt8/VEEjbo7UaPI/AAAAAAAAB5s/84c2LtABV-Y/s1600/DSC_7853.JPG -->
 <!-- featured-6 - http://3.bp.blogspot.com/-IUlMj0Kho50/UUW6SmdA7oI/AAAAAAAACNw/SVw7fYxuCqE/s1600/P2230074.JPG -->
+
+<!-- suggest-1 - https://upload.wikimedia.org/wikipedia/commons/e/e4/Kalanggaman_Island.jpg -->
+<!-- suggest-2 - https://upload.wikimedia.org/wikipedia/commons/6/6b/Salagdoong_Beach_%2811052638926%29.jpg-->
+<!-- suggest-3 - https://www.flickr.com/photos/25050540@N03/3588263140 -->
+<!-- suggest-4 - https://upload.wikimedia.org/wikipedia/commons/9/9d/Isla_Great_Santa_Cruz41.JPG -->
+
+
+<!-- editors sources - http://www.lakwatseradeprimera.com/zambales-talisayin-cove/-->

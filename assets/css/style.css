@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 
@@ -36,6 +36,11 @@ body.modal-open main, body.modal-open nav{
 .modal-header {
   padding: 20px 0px 0px;
 }
+
+.modal-header h1 {
+  color: #2193b0;
+}
+
 .modal-footer {
   padding: 0px 0px 35px;
 }
@@ -178,6 +183,26 @@ body.modal-open main, body.modal-open nav{
   padding: 6px 25px;
 }
 
+.btn-dark {
+  background-color: #2193b0;
+  border: 2px solid #2193b0;
+}
+
+.btn-dark:hover{
+  background-color: #1e839c;
+  border: 2px solid #1e839c;
+}
+
+.btn-outline-dark {
+  border: 2px solid #2193b0;
+  color: #2193b0;
+}
+
+.btn-outline-dark:hover {
+  background-color: #1e839c;
+  border: 2px solid #1e839c;
+}
+
 .jumbotron {
   background-color: transparent;
   margin: 0;
@@ -238,13 +263,14 @@ a.nav-link {
 
 
 /*Homepage Customization*/
+
 #home .banner {
   padding: 0;
   box-shadow: inset 0px 0px 10px rgba(0,0,0,0.1);
 }
 
 #home .banner > div > div > h1{
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Rubik', cursive; */
   color: white;
   line-height: 2.8rem;
   text-shadow: 0px 1px 0px #b2a98f, 0px 0px 0px rgba(0,0,0,0.15), 0px 0px 0px rgba(0,0,0,0.1), 0px 0px 0px rgba(0,0,0,0.1)
@@ -308,7 +334,7 @@ a.nav-link {
 
 @media (min-width: 1440px){
   #home .welcome video {
-    top:-100%;
+    top:-95%;
   }
 }
 
@@ -440,10 +466,9 @@ a.nav-link {
 /*Footer Customization*/
 
 .main-footer {
-  background-color: lightgray;
+  background-color: #f1f1f1;
   height: auto;
   display: block;
-  color: black;
   opacity: .7;
   padding: 30px 0px 0px;
   overflow: hidden;
@@ -470,7 +495,7 @@ a.nav-link {
 
 .cta {
   background-color: #57869e;
-  background-image: url(../img/cta.jpg);
+  background-image: url(../img/suggest-1.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
@@ -518,13 +543,17 @@ a:focus, button:focus {
     padding: 20px 0px;
 }
 
+#home section > h2, #contact h3, .main-footer h4 {
+  color: #484848;
+}
+
 #contact .banner-small {
-  background-image: url(../img/contact-alt.jpg);
+  background-image: url(../img/contact.jpg);
   background-position: center center;
 }
 
 #about .banner-small {
-   background-image: url(../img/about-alt.jpg);
+   background-image: url(../img/about.jpg);
   background-position: center center;
 }
 

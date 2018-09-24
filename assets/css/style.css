@@ -275,7 +275,7 @@ a.nav-link {
   letter-spacing: 3px;
   font-weight: normal;
   color: white;
-  line-height: 2.8rem;
+  line-height: 90%;
   text-shadow: 0px 1px 0px #b2a98f, 0px 0px 0px rgba(0,0,0,0.15), 0px 0px 0px rgba(0,0,0,0.1), 0px 0px 0px rgba(0,0,0,0.1)
 }
 
@@ -304,7 +304,6 @@ a.nav-link {
   height: 100vh;
   max-height: 500px;
   overflow: hidden;
-  margin-bottom: 80px;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -623,7 +622,7 @@ nav .active {
 }
 
 #about h2 {
-  background-color: white;
+  background-color: #f4f4f2;
   top: 63.4px;
 }
 

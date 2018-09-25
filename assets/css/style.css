@@ -212,10 +212,16 @@ body.modal-open main, body.modal-open nav{
 a.nav-link {
   text-align: center;
   margin: auto 10px;
+  font-size: 20px;
 }
 
 .navbar-brand {
-  font-size: 25px;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand i{
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .navbar-brand img {
@@ -360,7 +366,11 @@ a.nav-link {
 
   #home .banner > .jumbotron {
     padding: 2rem auto;
-	}
+  }
+  
+  /* .banner-small, .vision, .cta{
+    background-attachment: inherit !important;
+  } */
 }
 
 #home .banner-editor {
@@ -553,8 +563,9 @@ a:focus, button:focus {
   outline: none;
 }
 
-nav .active {
+nav a.active {
   font-weight: bold;
+  color: #1e839c !important;
 }
 
 .alt-container{
@@ -589,6 +600,13 @@ nav .active {
 
 #about .sources > p {
   margin: 0;
+}
+
+#about .dev-profile {
+  background-image: url(../img/profile.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner-small {
